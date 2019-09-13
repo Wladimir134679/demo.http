@@ -1,6 +1,6 @@
 # Demo RestHTTP JSON-API
 
-####Запрос
+Запрос:
 
 POST /visited_links
 ```
@@ -14,7 +14,7 @@ POST /visited_links
 }
 ```
 
-###Ответ
+Ответ:
 
 ```json
 {
@@ -23,9 +23,11 @@ POST /visited_links
 ```
 
 
-####Запрос
+Запрос:
 
 GET /visited_domains?from=1545221231&to=1545217638
+
+Ответ:
 ``` json
 {
     "domains":[
